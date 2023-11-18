@@ -1,0 +1,91 @@
+/* CSS Reset with Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a basic global style */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    max-width: 70dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+
+}
+
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* Style the sections */
+section {
+    margin: 1rem 0;
+}
+
+
+article {
+    margin-top: 1rem;
+}
+
+/* Style the article headers */
+h2,
+h3 {
+    color: #333;
+}
+
+/* Style the paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Style the unordered lists */
+ul {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+/* Style the ordered lists */
+ol {
+
+    margin-left: 2rem;
+}
+
+/* Style the definition lists */
+dl {
+
+    margin-left: 2rem;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+dd {
+    margin-bottom: 1rem;
+}
+
+/* Style the code example */
+#code-example {
+    width: 100%;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    margin-bottom: 20px;
+}
